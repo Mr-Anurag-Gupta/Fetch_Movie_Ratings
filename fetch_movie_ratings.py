@@ -81,8 +81,6 @@ def log_error_msg(error):
     print(error)
 
 if __name__ == '__main__':
-    movies = input("\nGet movies rating, Enter movie(s) name\n( Movies names must be (,) seperated ): ").split(',')
+    movies = input("\nEnter movie(s) name ( without quotes )\n( Movies names must be (,) seperated ): ").split(',')
     movies = [title.strip() for title in movies]
     search_movie(movies)
-    #search_movie("The Godfather", "Star Trek", "The Lord Of The Rings", "The Wolf Of Wall Street", "The Godfather II", "Padmavati", "Annabelle: Creation")
-    #search_movie("The GodFaTher III")
