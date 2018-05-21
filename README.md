@@ -2,4 +2,4 @@
 Given a movie, the script fetches its ratings from imdb website
 
 ## Requirements:
-Python 3.x
+  - Python 3.x
